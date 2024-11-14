@@ -1,0 +1,9 @@
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+ body{
+    background-color: #000B58;
+}

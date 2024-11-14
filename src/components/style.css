@@ -1,0 +1,23 @@
+.box{
+    width: 100px;
+    height: 100px;
+}
+.input{
+    max-width:190px;
+    min-width: none;
+    padding: 11px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    transition: border-bottom-color 0.3s ease;
+    margin-right: 10px;
+}
+.btn{
+    padding: 11px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
