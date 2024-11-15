@@ -207,7 +207,6 @@ const Aside1 = () => {
 
   return (
     <div>
-      mashhood ak suuiiiiiii
       <div>
         <h1 style={{ color: color }}>Color Name is {colorr}</h1>
       </div>
