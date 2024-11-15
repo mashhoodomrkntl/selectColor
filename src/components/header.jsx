@@ -170,7 +170,7 @@ const Aside1 = () => {
   // Handle changes to the input field
   const handleInputChange = (e) => {
     const input = e.target.value.toLowerCase();
-    setError(""); // Clear any previous error
+    setError("");
     setInputColor(input);
 
     // Filter suggestions based on input
@@ -203,6 +203,7 @@ const Aside1 = () => {
     setInputColor(color);
     setSuggestions([]);
   };
+  const count=useSelector((state)=>state.counter.value)
 
   return (
     <div>
@@ -219,6 +220,7 @@ const Aside1 = () => {
       <button className="btn" onClick={handleChangeColor}>
         Change Color
       </button>
+      <button  style={{marginLeft:"8px",padding:"10px 15px"}}>{count}</button>
 
       {suggestions.length > 0 && (
         <ul style={{ listStyleType: "none", padding: 0 }}>

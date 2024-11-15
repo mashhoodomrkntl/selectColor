@@ -3,6 +3,7 @@ import Aside1 from "./components/header";
 import Aside2 from "./components/aside2";
 import Footer from "./components/footer";
 import Header from "./components/aside1";
+import Counter from "./components/counter";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Aside2 />
         <Footer />
         <Footer />
+        <Counter/>
       </div>
     </>
   );

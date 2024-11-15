@@ -8,8 +8,6 @@ export const colorSlice = createSlice({
   reducers: {
     change_color: (state, action) => {
       state.value = action.payload.color;
-      console.log('accccttionn',action)
-      console.log('pay',action.payload.color)
     },
   },
 });
